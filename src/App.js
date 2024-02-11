@@ -1,10 +1,12 @@
-import "./styles.css";
+import React from "react";
+import UserProfile from "./UserProfile";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <UserProfile />
     </div>
   );
 }
+
+export default App;
